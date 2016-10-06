@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>   
+</body>
+<script>
+    var firstNum=0;
+    var secondNum=1;
+    var answer=firstNum+secondNum;
+
+    while (answer < 1000) {
+
+        document.write(answer+"<br />");
+        secondNum = firstNum;
+        firstNum = answer;
+        answer = firstNum + secondNum;         
+    }
+   </script>
+</html>
